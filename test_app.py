@@ -6,6 +6,4 @@ class TestApp(unittest.TestCase):
         self.assertEqual(run(), 1)
 
     def test_nothing(self):
-        self.assertTrue(True)
-        self.assertTrue(True)
-        self.assertTrue(True)
+        self.assertTrue(False)
