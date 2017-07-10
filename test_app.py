@@ -8,3 +8,4 @@ class TestApp(unittest.TestCase):
     def test_nothing(self):
         self.assertTrue(True)
         self.assertTrue(True)
+        self.assertTrue(True)
