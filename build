@@ -32,7 +32,6 @@ Pipeline counter was: $GO_PIPELINE_COUNTER
 EOF
 
 echo "Building the docker image"
-sudo usermod -aG docker $(whoami)
 docker build -t python-app .
 
 echo "Running the python app"
