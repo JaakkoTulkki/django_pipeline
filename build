@@ -2,7 +2,7 @@
 
 set -e
 
-python -m unittest test_app.TestApp
+python3 -m unittest test_app.TestApp
 
 echo "Let us pretend that this is building something ... and takes 10 seconds"
 
