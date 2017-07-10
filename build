@@ -30,3 +30,9 @@ Pipeline counter was: $GO_PIPELINE_COUNTER
 <body>
 </html>
 EOF
+
+echo "Building the docker image"
+docker build -t python-app .
+
+echo "Running the python app"
+docker run python-app
